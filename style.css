@@ -182,7 +182,7 @@ h3 {
     padding: 10px 20px;
     border: 2px solid var(--light-color);
     border-radius: 14px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .row {
@@ -206,17 +206,25 @@ h3 {
 .trending-project {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 8px;
+    gap: 14px;
+    margin-bottom: 10px;
+    margin-top: 8px;
 }
-
-/* .trending-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(4, 1fr) ;
-} */
 
 img {
     width: 50px;
     height: 50px;
+}
+
+.row > .nickname {
+    font-weight: 700;
+    color: #616060;;
+}
+
+
+/* change when figure out the card design */
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
