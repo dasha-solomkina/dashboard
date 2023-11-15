@@ -13,6 +13,8 @@
     --light-color: #D5D0F2;
     --text-color: #0D0D0D;
     --secondary-text-color: #7E7E7E;
+    --dark-mode-sidebar: #c2c5cd;
+    --dark-mode-menues: #95a0bf;
 }
 
 .container {
@@ -46,7 +48,9 @@
     color: white;
 }
 
-.nav + 
+.nav.night-mode  {
+    background-color: #1C1F26;
+}
 
 
 .logo {
@@ -125,6 +129,11 @@ li:hover {
     
 }
 
+.modes.night-mode {
+    background-color: #9c9c9c;
+    flex-direction: row-reverse;
+}
+
 .modes:hover {
     cursor: pointer;
 }
@@ -143,6 +152,9 @@ li:hover {
     height: 20px;
 }
 
+.mode-img.night-mode {
+    background-image: url(moon.png);
+}
 
 .top-menue {
     display: grid;
@@ -152,6 +164,10 @@ li:hover {
     padding-right: 40px;
     padding-left: 40px;
     background-color: #FAFAFA;
+}
+
+.top-menue.night-mode {
+    background-color: var(--dark-mode-menues);
 }
 
 .top-menue > .icon {
@@ -180,6 +196,10 @@ li:hover {
     padding-right: 40px;
     gap: 20px;
     background-color: #FAFAFA;
+}
+
+.bottom-menue.night-mode {
+    background-color: var(--dark-mode-menues);
 }
 
 button {
@@ -219,6 +239,10 @@ h2 {
     display: grid;
     grid-template-rows: 1fr 1fr;
     padding: 40px;
+}
+
+.sidebar.night-mode {
+    background-color: var(--dark-mode-sidebar);
 }
 
 h3 {
@@ -277,6 +301,10 @@ img {
     grid-template-rows: 1fr 8fr 8fr;
     padding: 40px 60px;
     gap: 20px;
+}
+
+.projects.night-mode {
+    background-color: var(--dark-mode-sidebar);
 }
 
 .projects > h2 {
