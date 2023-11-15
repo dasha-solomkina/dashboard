@@ -52,7 +52,6 @@
     background-color: var(--dark-mode-nav);
 }
 
-
 .logo {
     font-size: 46px;
     font-family: 'M PLUS Code Latin', monospace;
@@ -344,7 +343,6 @@ a {
     font-style: italic;
 }
 
-
 .project-link > a::after {
     content: "";
     display: inline-block;
@@ -358,4 +356,3 @@ a {
 #card-content > p {
     color:var(--secondary-text-color);
 }
-
