@@ -46,6 +46,9 @@
     color: white;
 }
 
+.nav + 
+
+
 .logo {
     font-size: 46px;
     font-family: 'M PLUS Code Latin', monospace;
@@ -108,9 +111,38 @@ li:hover {
 }
 
 .modes {
-    align-self: end;
-
+    width: 65px;
+    height: 30px;
+    border-radius: 39px;
+    padding: 5px 4px;
+    background-color: var(--light-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+    margin-top: 50px;
+    margin-right: 40px;
+    
 }
+
+.modes:hover {
+    cursor: pointer;
+}
+
+.round {
+    background-color: white;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+}
+
+.mode-img {
+    background-image: url(sun.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
 
 .top-menue {
     display: grid;
