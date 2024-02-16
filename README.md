@@ -1,4 +1,4 @@
-# odin-js-first
+# Dashboard
 
 This project was completed as part of the course: [The Odin Project](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
