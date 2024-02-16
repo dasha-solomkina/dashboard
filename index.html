@@ -1,131 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="icon.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@400;700&display=swap">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@400;700&display=swap"
+    />
     <title>Dashboard</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="nav">
-            <div class="logo"><img src="logo.png" alt="">Dashboard</div>
-            <ul class="nav-menue">
-                <li id="home">Home</li>
-                <li id="profile">Profile</li>
-                <li id="messages">Messages</li>
-                <li id="history">History</li>
-                <li id="tasks">Tasks</li>
-                <li id="commynities">Community</li>
-            </ul>
-            <div class="modes">
-                <div class="mode-img"></div>
-                <div class="round"></div>
-            </div>
+      <div class="nav">
+        <div class="logo"><img src="logo.png" alt="" />Dashboard</div>
+        <ul class="nav-menue">
+          <li id="home">Home</li>
+          <li id="profile">Profile</li>
+          <li id="messages">Messages</li>
+          <li id="history">History</li>
+          <li id="tasks">Tasks</li>
+          <li id="commynities">Community</li>
+        </ul>
+        <div class="modes">
+          <div class="mode-img"></div>
+          <div class="round"></div>
         </div>
-        <div class="top-menue">
-            <img class="icon" src="search.png" alt="search icon">
-            <div class="search-bar"></div>
-            <img class="icon" src="notification.png" alt="notifications icon">
-            <a href="https://github.com/darialiit" target="_blank"><img src="woman.png" alt="profile picture"></a>
-            <p id="user-name"> <a href="https://github.com/darialiit" target="_blank">Dasha Solomkina</a></p>
+      </div>
+      <div class="top-menue">
+        <img class="icon" src="search.png" alt="search icon" />
+        <div class="search-bar"></div>
+        <img class="icon" src="notification.png" alt="notifications icon" />
+        <a href="https://github.com/dasha-solomkina" target="_blank"
+          ><img src="woman.png" alt="profile picture"
+        /></a>
+        <p id="user-name">
+          <a href="https://github.com/dasha-solomkina" target="_blank"
+            >Dasha Solomkina</a
+          >
+        </p>
+      </div>
+      <div class="bottom-menue">
+        <a href="https://github.com/dasha-solomkina" target="_blank"
+          ><img src="woman.png" alt=""
+        /></a>
+        <div>
+          <p>Hi there,</p>
+          <a href="https://github.com/dasha-solomkina" target="_blank"
+            ><h2>Dasha (@dasha-solomkina)</h2></a
+          >
         </div>
-        <div class="bottom-menue">
-            <a href="https://github.com/darialiit" target="_blank"><img src="woman.png" alt=""></a>
-            <div>
-                <p>Hi there,</p>
-                <a href="https://github.com/darialiit" target="_blank"><h2>Dasha (@darialiit)</h2></a>
-            </div>
-            <button>New</button>
-            <button>Upload</button>
-            <button>Share</button>
+        <button>New</button>
+        <button>Upload</button>
+        <button>Share</button>
+      </div>
+      <div class="projects">
+        <h2>Projects</h2>
+        <div class="card">
+          <div id="card-content">
+            <h3>Rock Paper Scissors</h3>
+            <p>
+              My first project: 'Rock, Paper, Scissors Challenge.' Compete
+              against a computer opponent with randomly generated choices, until
+              one player reaches 5 points.
+            </p>
+          </div>
+          <div class="project-link">
+            <a
+              href="https://dasha-solomkina.github.io/odin-js-first/"
+              target="_blank"
+              >See the project</a
+            >
+          </div>
         </div>
-        <div class="projects">
-            <h2>Projects</h2>
-            <div class="card">
-                <div id="card-content">
-                    <h3>Rock Paper Scissors</h3>
-                    <p>My first project: 'Rock, Paper, Scissors Challenge.' Compete against a computer opponent with randomly generated choices, until one player reaches 5 points.</p>
-                </div>
-                <div class="project-link"><a href="https://darialiit.github.io/odin-js-first/" target="_blank">See the project</a></div>
-            </div>
-            <div class="card">
-                <div id="card-content">
-                    <h3>Etch a sketch</h3>
-                    <p>A browser version of something between a sketchpad and an Etch-A-Sketch. While building this project I was able to work on my DOM manipulation skills.</p>
-                </div>
-                <div class="project-link"><a href="https://darialiit.github.io/etch-a-sketch/" target="_blank">See the project</a></div>
-            </div>
-            <div class="card">
-                <div id="card-content">
-                    <h3>Calculator</h3>
-                    <p>On-screen calculator using a combination of JavaScript, HTML, and CSS. This calculator can be operated using either a mouse or a keyboard.</p>
-                </div>
-                <div class="project-link"><a href="https://darialiit.github.io/project-calculator/" target="_blank">See the project</a></div>
-            </div>
-            <div class="card">
-                <div id="card-content">
-                    <h3>Sign-up page</h3>
-                    <p>This is a simulated sign-up page featuring mandatory fields and password confirmation checks. Additionally, passwords must be a minimum of 8 characters.</p>
-                </div>
-                <div class="project-link"><a href="https://darialiit.github.io/sign-up-forms/" target="_blank">See the project</a></div>
-            </div>
+        <div class="card">
+          <div id="card-content">
+            <h3>Etch a sketch</h3>
+            <p>
+              A browser version of something between a sketchpad and an
+              Etch-A-Sketch. While building this project I was able to work on
+              my DOM manipulation skills.
+            </p>
+          </div>
+          <div class="project-link">
+            <a
+              href="https://dasha-solomkina.github.io/etch-a-sketch/"
+              target="_blank"
+              >See the project</a
+            >
+          </div>
         </div>
-        <div class="sidebar">
-            <div class="announcements">
-                <h3>Announcements</h3>
-                <div class="announcements-card">
-                    <div class="row">
-                        <h5>New Features</h5>
-                        <p>Discover our latest enhancements for an even better user experience.</p>
-                    </div>
-                    <div class="row border">
-                        <h5>Join the Webinar</h5>
-                        <p>n from experts in our upcoming online event. Register now.</p>
-                    </div>
-                    <div class="row">
-                        <h5>Share Your Feedback</h5>
-                        <p>Help us improve. Take our survey and tell us what you think.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="trending">
-                <h3>Trending</h3>
-                <div class="trending-card">
-                    <div class="trending-project">
-                        <img src="woman2.png" alt="profile picture">
-                        <div class="row">
-                            <p class="nickname">@TechNinja</p>
-                            <p class="project-name">SwiftPulse App</p>
-                        </div>
-                    </div>
-                    <div class="trending-project">
-                        <img src="woman3.png" alt="profile picture">
-                        <div class="row">
-                            <p class="nickname">@GamerGirl1</p>
-                            <p class="project-name">PixelCraft Pro</p>
-                        </div>
-                    </div>
-                    <div class="trending-project">
-                        <img src="woman4.png" alt="profile picture">
-                        <div class="row">
-                            <p class="nickname">@CodeWizard</p>
-                            <p class="project-name">DataHub Connect</p>
-                        </div>
-                    </div>
-                    <div class="trending-project">
-                        <img src="woman5.png" alt="profile picture">
-                        <div class="row">
-                            <p class="nickname">@CodeQueen</p>
-                            <p class="project-name">SkyLink Express</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="card">
+          <div id="card-content">
+            <h3>Calculator</h3>
+            <p>
+              On-screen calculator using a combination of JavaScript, HTML, and
+              CSS. This calculator can be operated using either a mouse or a
+              keyboard.
+            </p>
+          </div>
+          <div class="project-link">
+            <a
+              href="https://dasha-solomkina.github.io/project-calculator/"
+              target="_blank"
+              >See the project</a
+            >
+          </div>
         </div>
+        <div class="card">
+          <div id="card-content">
+            <h3>Sign-up page</h3>
+            <p>
+              This is a simulated sign-up page featuring mandatory fields and
+              password confirmation checks. Additionally, passwords must be a
+              minimum of 8 characters.
+            </p>
+          </div>
+          <div class="project-link">
+            <a
+              href="https://dasha-solomkina.github.io/sign-up-forms/"
+              target="_blank"
+              >See the project</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="announcements">
+          <h3>Announcements</h3>
+          <div class="announcements-card">
+            <div class="row">
+              <h5>New Features</h5>
+              <p>
+                Discover our latest enhancements for an even better user
+                experience.
+              </p>
+            </div>
+            <div class="row border">
+              <h5>Join the Webinar</h5>
+              <p>n from experts in our upcoming online event. Register now.</p>
+            </div>
+            <div class="row">
+              <h5>Share Your Feedback</h5>
+              <p>
+                Help us improve. Take our survey and tell us what you think.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="trending">
+          <h3>Trending</h3>
+          <div class="trending-card">
+            <div class="trending-project">
+              <img src="woman2.png" alt="profile picture" />
+              <div class="row">
+                <p class="nickname">@TechNinja</p>
+                <p class="project-name">SwiftPulse App</p>
+              </div>
+            </div>
+            <div class="trending-project">
+              <img src="woman3.png" alt="profile picture" />
+              <div class="row">
+                <p class="nickname">@GamerGirl1</p>
+                <p class="project-name">PixelCraft Pro</p>
+              </div>
+            </div>
+            <div class="trending-project">
+              <img src="woman4.png" alt="profile picture" />
+              <div class="row">
+                <p class="nickname">@CodeWizard</p>
+                <p class="project-name">DataHub Connect</p>
+              </div>
+            </div>
+            <div class="trending-project">
+              <img src="woman5.png" alt="profile picture" />
+              <div class="row">
+                <p class="nickname">@CodeQueen</p>
+                <p class="project-name">SkyLink Express</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
